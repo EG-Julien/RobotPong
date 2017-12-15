@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/RobotPongSoft/cmake-build-debug/RobotPongSoft_RobotPongSoft.ino.cpp
+Arduino.h
+-
+Arduino.h
+/Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/RobotPongSoft/cmake-build-debug/Arduino.h
+

@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+8a014190c897296045fc3dfd3b82d363 CMakeFiles/RobotPongSoft-size
+91b03890c4dc049352911d63e3e29635 RobotPongSoft_RobotPongSoft.ino.cpp

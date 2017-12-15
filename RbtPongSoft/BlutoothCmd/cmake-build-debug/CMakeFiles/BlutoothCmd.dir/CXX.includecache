@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/SoftwareSerial.h
+inttypes.h
+-
+Stream.h
+-
+
+/Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/BlutoothCmd_BlutoothCmd.ino.cpp
+Arduino.h
+-
+SoftwareSerial.h
+-
+Arduino.h
+/Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/Arduino.h
+

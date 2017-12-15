@@ -1,0 +1,21 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd"
+-- The C compiler identification is GNU 4.8.1
+-- The CXX compiler identification is GNU 4.8.1
+-- Arduino SDK version 1.6.4: /Applications/Arduino.app/Contents/Java
+-- Check for working C compiler: /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc
+-- Check for working C compiler: /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++
+-- Check for working CXX compiler: /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Generating BlutoothCmd
+-- Using /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-objcopy for converting firmware image to hex
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug

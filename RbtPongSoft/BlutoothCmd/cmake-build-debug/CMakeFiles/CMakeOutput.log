@@ -1,0 +1,270 @@
+The target system is: Arduino -  - 
+The host system is: Darwin - 17.2.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/CMakeFiles/3.9.4/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/CMakeFiles/3.9.4/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53b62/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_53b62.dir/build.make CMakeFiles/cmTC_53b62.dir/build
+Building C object CMakeFiles/cmTC_53b62.dir/testCCompiler.c.obj
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc   -g -Os -w -ffunction-sections -fdata-sections -MMD    -o CMakeFiles/cmTC_53b62.dir/testCCompiler.c.obj   -c "/Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_53b62
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53b62.dir/link.txt --verbose=1
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_53b62.dir/testCCompiler.c.obj  -o cmTC_53b62 
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cd3cb/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cd3cb.dir/build.make CMakeFiles/cmTC_cd3cb.dir/build
+Building C object CMakeFiles/cmTC_cd3cb.dir/CMakeCCompilerABI.c.obj
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc   -g -Os -w -ffunction-sections -fdata-sections -MMD    -o CMakeFiles/cmTC_cd3cb.dir/CMakeCCompilerABI.c.obj   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_cd3cb
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd3cb.dir/link.txt --verbose=1
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections -v CMakeFiles/cmTC_cd3cb.dir/CMakeCCompilerABI.c.obj  -o cmTC_cd3cb 
+Using built-in specs.
+COLLECT_GCC=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc
+COLLECT_LTO_WRAPPER=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/4.8.1/lto-wrapper
+Target: avr
+Configured with: ../gcc-4.8.1/configure --enable-fixed-point --enable-languages=c,c++ --prefix=/Users/jenkins/jenkins/workspace/toolchain-avr-mac32/objdir --enable-long-long --disable-nls --disable-checking --disable-libssp --disable-libada --disable-shared --enable-lto --with-avrlibc=yes --with-dwarf2 --disable-doc --target=avr
+Thread model: single
+gcc version 4.8.1 (GCC) 
+COMPILER_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/4.8.1/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/bin/
+LIBRARY_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/
+COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-ffunction-sections' '-fdata-sections' '-MMD' '-w' '-Os' '-v' '-o' 'cmTC_cd3cb'
+ /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/4.8.1/collect2 -o cmTC_cd3cb -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1 -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib --gc-sections CMakeFiles/cmTC_cd3cb.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_cd3cb/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cd3cb.dir/build.make CMakeFiles/cmTC_cd3cb.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_cd3cb.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc   -g -Os -w -ffunction-sections -fdata-sections -MMD    -o CMakeFiles/cmTC_cd3cb.dir/CMakeCCompilerABI.c.obj   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_cd3cb]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd3cb.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections -v CMakeFiles/cmTC_cd3cb.dir/CMakeCCompilerABI.c.obj  -o cmTC_cd3cb ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/4.8.1/lto-wrapper]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: ../gcc-4.8.1/configure --enable-fixed-point --enable-languages=c,c++ --prefix=/Users/jenkins/jenkins/workspace/toolchain-avr-mac32/objdir --enable-long-long --disable-nls --disable-checking --disable-libssp --disable-libada --disable-shared --enable-lto --with-avrlibc=yes --with-dwarf2 --disable-doc --target=avr]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.8.1 (GCC) ]
+  ignore line: [COMPILER_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/4.8.1/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/bin/]
+  ignore line: [LIBRARY_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-ffunction-sections' '-fdata-sections' '-MMD' '-w' '-Os' '-v' '-o' 'cmTC_cd3cb']
+  link line: [ /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/4.8.1/collect2 -o cmTC_cd3cb -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1 -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib --gc-sections CMakeFiles/cmTC_cd3cb.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group]
+    arg [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/4.8.1/collect2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_cd3cb] ==> ignore
+    arg [-L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1] ==> dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1]
+    arg [-L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc] ==> dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc]
+    arg [-L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib] ==> dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib]
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_cd3cb.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+  collapse library dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1] ==> [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/4.8.1]
+  collapse library dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc] ==> [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc]
+  collapse library dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib] ==> [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/lib]
+  implicit libs: [gcc;m;c]
+  implicit dirs: [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/4.8.1;/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc;/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65db9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_65db9.dir/build.make CMakeFiles/cmTC_65db9.dir/build
+Building C object CMakeFiles/cmTC_65db9.dir/feature_tests.c.obj
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc   -g -Os -w -ffunction-sections -fdata-sections -MMD    -std=c11 -o CMakeFiles/cmTC_65db9.dir/feature_tests.c.obj   -c "/Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_65db9
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65db9.dir/link.txt --verbose=1
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_65db9.dir/feature_tests.c.obj  -o cmTC_65db9 
+
+
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8c83c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8c83c.dir/build.make CMakeFiles/cmTC_8c83c.dir/build
+Building C object CMakeFiles/cmTC_8c83c.dir/feature_tests.c.obj
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc   -g -Os -w -ffunction-sections -fdata-sections -MMD    -std=c99 -o CMakeFiles/cmTC_8c83c.dir/feature_tests.c.obj   -c "/Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_8c83c
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c83c.dir/link.txt --verbose=1
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_8c83c.dir/feature_tests.c.obj  -o cmTC_8c83c 
+
+
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0684d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0684d.dir/build.make CMakeFiles/cmTC_0684d.dir/build
+Building C object CMakeFiles/cmTC_0684d.dir/feature_tests.c.obj
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc   -g -Os -w -ffunction-sections -fdata-sections -MMD    -std=c90 -o CMakeFiles/cmTC_0684d.dir/feature_tests.c.obj   -c "/Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_0684d
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0684d.dir/link.txt --verbose=1
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-gcc -g -Os -w -ffunction-sections -fdata-sections -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_0684d.dir/feature_tests.c.obj  -o cmTC_0684d 
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b3db/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8b3db.dir/build.make CMakeFiles/cmTC_8b3db.dir/build
+Building CXX object CMakeFiles/cmTC_8b3db.dir/testCXXCompiler.cxx.obj
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++    -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -o CMakeFiles/cmTC_8b3db.dir/testCXXCompiler.cxx.obj -c "/Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+Linking CXX executable cmTC_8b3db
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b3db.dir/link.txt --verbose=1
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_8b3db.dir/testCXXCompiler.cxx.obj  -o cmTC_8b3db 
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1f13/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d1f13.dir/build.make CMakeFiles/cmTC_d1f13.dir/build
+Building CXX object CMakeFiles/cmTC_d1f13.dir/CMakeCXXCompilerABI.cpp.obj
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++    -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -o CMakeFiles/cmTC_d1f13.dir/CMakeCXXCompilerABI.cpp.obj -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_d1f13
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1f13.dir/link.txt --verbose=1
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections -v CMakeFiles/cmTC_d1f13.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_d1f13 
+Using built-in specs.
+COLLECT_GCC=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++
+COLLECT_LTO_WRAPPER=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/4.8.1/lto-wrapper
+Target: avr
+Configured with: ../gcc-4.8.1/configure --enable-fixed-point --enable-languages=c,c++ --prefix=/Users/jenkins/jenkins/workspace/toolchain-avr-mac32/objdir --enable-long-long --disable-nls --disable-checking --disable-libssp --disable-libada --disable-shared --enable-lto --with-avrlibc=yes --with-dwarf2 --disable-doc --target=avr
+Thread model: single
+gcc version 4.8.1 (GCC) 
+COMPILER_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/4.8.1/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/bin/
+LIBRARY_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/
+COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-fno-exceptions' '-ffunction-sections' '-fdata-sections' '-fno-threadsafe-statics' '-MMD' '-w' '-Os' '-v' '-o' 'cmTC_d1f13'
+ /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/4.8.1/collect2 -o cmTC_d1f13 -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1 -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib --gc-sections CMakeFiles/cmTC_d1f13.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d1f13/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d1f13.dir/build.make CMakeFiles/cmTC_d1f13.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_d1f13.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++    -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -o CMakeFiles/cmTC_d1f13.dir/CMakeCXXCompilerABI.cpp.obj -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_d1f13]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1f13.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections -v CMakeFiles/cmTC_d1f13.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_d1f13 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/4.8.1/lto-wrapper]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: ../gcc-4.8.1/configure --enable-fixed-point --enable-languages=c,c++ --prefix=/Users/jenkins/jenkins/workspace/toolchain-avr-mac32/objdir --enable-long-long --disable-nls --disable-checking --disable-libssp --disable-libada --disable-shared --enable-lto --with-avrlibc=yes --with-dwarf2 --disable-doc --target=avr]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.8.1 (GCC) ]
+  ignore line: [COMPILER_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/4.8.1/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/bin/]
+  ignore line: [LIBRARY_PATH=/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/:/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-w' '-fno-exceptions' '-ffunction-sections' '-fdata-sections' '-fno-threadsafe-statics' '-MMD' '-w' '-Os' '-v' '-o' 'cmTC_d1f13']
+  link line: [ /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/4.8.1/collect2 -o cmTC_d1f13 -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1 -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc -L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib --gc-sections CMakeFiles/cmTC_d1f13.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group]
+    arg [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../libexec/gcc/avr/4.8.1/collect2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d1f13] ==> ignore
+    arg [-L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1] ==> dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1]
+    arg [-L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc] ==> dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc]
+    arg [-L/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib] ==> dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib]
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_d1f13.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+  collapse library dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1] ==> [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/4.8.1]
+  collapse library dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc] ==> [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc]
+  collapse library dir [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/4.8.1/../../../../avr/lib] ==> [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/lib]
+  implicit libs: [gcc;m;gcc;m;c]
+  implicit dirs: [/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc/avr/4.8.1;/Applications/Arduino.app/Contents/Java/hardware/tools/avr/lib/gcc;/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: /Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_77dc7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_77dc7.dir/build.make CMakeFiles/cmTC_77dc7.dir/build
+Building CXX object CMakeFiles/cmTC_77dc7.dir/feature_tests.cxx.obj
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++    -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -std=c++1y -o CMakeFiles/cmTC_77dc7.dir/feature_tests.cxx.obj -c "/Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_77dc7
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77dc7.dir/link.txt --verbose=1
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_77dc7.dir/feature_tests.cxx.obj  -o cmTC_77dc7 
+
+
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e07bf/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e07bf.dir/build.make CMakeFiles/cmTC_e07bf.dir/build
+Building CXX object CMakeFiles/cmTC_e07bf.dir/feature_tests.cxx.obj
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++    -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -std=c++11 -o CMakeFiles/cmTC_e07bf.dir/feature_tests.cxx.obj -c "/Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_e07bf
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e07bf.dir/link.txt --verbose=1
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_e07bf.dir/feature_tests.cxx.obj  -o cmTC_e07bf 
+
+
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53c0e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_53c0e.dir/build.make CMakeFiles/cmTC_53c0e.dir/build
+Building CXX object CMakeFiles/cmTC_53c0e.dir/feature_tests.cxx.obj
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++    -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD    -std=c++98 -o CMakeFiles/cmTC_53c0e.dir/feature_tests.cxx.obj -c "/Users/eg_julien/Google Drive/Projects/RobotPong/V2.0/RobotPongSoft/RbtPongSoft/BlutoothCmd/cmake-build-debug/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_53c0e
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53c0e.dir/link.txt --verbose=1
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-g++  -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD   -w -Os -Wl,--gc-sections  CMakeFiles/cmTC_53c0e.dir/feature_tests.cxx.obj  -o cmTC_53c0e 
+
+
